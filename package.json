@@ -63,7 +63,7 @@
   "dependencies": {
     "@types/w3c-web-usb": "1.0.10",
     "node-addon-api": "4.3.0",
-    "node-gyp-build": "4.8.1"
+    "node-gyp-build": "git+https://github.com/Alex313031/node-gyp-build.git"
   },
   "devDependencies": {
     "@types/mocha": "10.0.6",
