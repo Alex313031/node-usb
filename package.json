@@ -80,7 +80,7 @@
     "prebuildify-cross": "4.0.2",
     "rimraf": "3.0.2",
     "typedoc": "0.22.18",
-    "typescript": "4.3.5"
+    "typescript": "~4.3.5"
   },
   "binary": {
     "napi_versions": [
