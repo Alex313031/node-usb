@@ -7,3 +7,4 @@ docs
 test/*.js
 dist
 prebuilds
+package-lock.json
