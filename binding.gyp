@@ -76,6 +76,7 @@
                 'msvs_settings': {
                   'VCCLCompilerTool': {
                     'RuntimeLibrary': 1, # static debug
+                    'Optimization': 0,
                   },
                 },
               },
@@ -84,6 +85,9 @@
                 'msvs_settings': {
                   'VCCLCompilerTool': {
                     'RuntimeLibrary': 0, # static release
+                    'FavorSizeOrSpeed': 1,
+                    'OmitFramePointers': 'true',
+                    'Optimization': 2,
                   },
                 },
               }

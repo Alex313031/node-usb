@@ -70,6 +70,9 @@
             '_GNU_SOURCE=1',
             'USBI_TIMERFD_AVAILABLE=1',
           ],
+          'cflags': [
+            '-O3',
+          ],
         }],
         [ 'OS == "linux" and use_udev == 1 or OS == "android"', {
           'sources': [
@@ -145,6 +148,9 @@
           'msvs_settings': {
               'VCCLCompilerTool': {
                 'AdditionalOptions': [ '/source-charset:utf-8' ],
+                'FavorSizeOrSpeed': 1,
+                'OmitFramePointers': 'true',
+                'Optimization': 2,
               },
             }
         }],
