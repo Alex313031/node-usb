@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.4.4] - 2024-05-30
+
+### Fixed
+- Allow errors during WebUSBDevice creation to be thown - ([Alex Frick](https://github.com/Alex313031))
+- Update most npm dependencies - ([Alex Frick](https://github.com/Alex313031))
+
+### Changed
+- Export all types at the top level of the package - ([Alex Frick](https://github.com/Alex313031))
+- Publish artifacts on GitHub - ([Alex Frick](https://github.com/Alex313031))
+- Trimmed TypeScript source from release package - ([Alex Frick](https://github.com/Alex313031))
+
 ## [2.4.3] - 2022-06-21
 
 ### Fixed
