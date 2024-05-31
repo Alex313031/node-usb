@@ -43,10 +43,10 @@
     "hardware"
   ],
   "scripts": {
-    "prepare": "yarn compile",
+    "prepare": "yarn compile && yarn prebuild-download",
     "install": "node-gyp-build",
     "rebuild": "node-gyp rebuild",
-    "clean": "git clean -fx ./build ./prebuilds ./dist ./docs ./node_modules",
+    "clean": "rimraf ./build ./prebuilds ./dist ./docs ./node_modules",
     "burn": "rimraf package-lock.json && rimraf yarn.lock && yarn run clean",
     "compile": "tsc && yarn lint && yarn docs",
     "lint": "eslint . --ext .ts",
@@ -58,7 +58,6 @@
     "docs": "typedoc",
     "prebuild": "prebuildify --napi --strip",
     "prebuild-cross": "prebuildify-cross --napi --strip",
-    "prepublishOnly": "prebuildify-ci download",
     "prebuild-download": "prebuildify-ci download"
   },
   "dependencies": {
