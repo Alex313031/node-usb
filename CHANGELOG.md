@@ -4,6 +4,8 @@
 
 ### Fixed
 - Allow errors during WebUSBDevice creation to be thown - ([Alex Frick](https://github.com/Alex313031))
+- Fix #548 by allowing multiple polling to fail - ([Alex Frick](https://github.com/Alex313031))
+- Ignore creation issues during attach and list - ([Alex Frick](https://github.com/Alex313031))
 - Update most npm dependencies - ([Alex Frick](https://github.com/Alex313031))
 
 ### Changed
